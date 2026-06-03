@@ -1,0 +1,160 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Learn about Quvo Café — Bacoor's newest homegrown café, passionate about great coffee and warm hospitality." />
+  <meta name="theme-color" content="#501818" />
+  <title>About Us | Quvo Café</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Lato:wght@300;400;700&family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- ── NAV ── -->
+  <header class="site-header" id="site-header">
+    <nav class="nav-container">
+      <a href="index.html" class="nav-logo">
+        <img src="images/logoT.png" alt="Quvo Café" class="logo-img" />
+      </a>
+      <ul class="nav-links">
+        <li><a href="index.html" class="nav-link">Home</a></li>
+        <li><a href="aboutus.html" class="nav-link" style="color:var(--color-primary);background:var(--color-cream);">About Quvo Café</a></li>
+      </ul>
+      <div class="nav-actions">
+        <button class="hamburger" id="hamburger" aria-label="Open Menu">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </nav>
+  </header>
+
+  <div class="mobile-overlay" id="mobileOverlay"></div>
+  <nav class="mobile-drawer" id="mobileDrawer" aria-label="Mobile Navigation">
+    <div class="mobile-drawer-header">
+      <img src="images/logoT.png" alt="Quvo Café" class="mobile-logo" />
+      <button class="drawer-close" id="drawerClose" aria-label="Close Menu">✕</button>
+    </div>
+    <ul class="mobile-nav-list">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="aboutus.html">About Quvo Café</a></li>
+      <li><a href="drinkmenu.html">Drink Menu</a></li>
+      <li><a href="foodmenu.html">Food Menu</a></li>
+    </ul>
+  </nav>
+
+  <!-- ── PAGE HERO ── -->
+  <section class="page-hero">
+    <div class="page-hero__overlay">
+      <img src="images/about.png" alt="Quvo Café" />
+    </div>
+    <div class="page-hero__content container">
+      <span class="page-hero__eyebrow">Our Story</span>
+      <h1 class="page-hero__title">Brew filled with<br><em>Passion</em></h1>
+      <p class="page-hero__sub">Bacoor's newest café, built on a passion for great coffee, warm spaces, and genuine Filipino hospitality.</p>
+    </div>
+  </section>
+
+  <!-- ── INTRO ── -->
+  <section class="about-intro">
+    <div class="container about-intro__grid">
+      <div class="about-intro__img">
+        <img
+          src="images/about2.jpg"
+          alt="Coffee Blends"
+          loading="lazy"
+        />
+      </div>
+      <div class="about-intro__text">
+        <p class="section-eyebrow">Who We Are</p>
+        <h2 class="about-intro__headline">Rooted in <em>Coffee & Community</em></h2>
+        <p class="about-intro__body">Quvo Café was born from a simple belief — that great coffee deserves a great home. Nestled in Molino 4, Bacoor, Cavite, we are a homegrown café that celebrates the richness of Philippine coffee culture while welcoming every guest with genuine warmth.</p>
+        <p class="about-intro__body">Every cup we serve carries the character of locally sourced beans and the dedication of the people who craft them. We believe coffee is more than a drink — it's a shared moment, a conversation, a reason to gather.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── VALUES ── -->
+  <section class="values-section">
+    <div class="container">
+      <div class="section-header">
+        <p class="section-eyebrow">Here you will experience something</p>
+        <h2 class="section-title">More than just Coffee</h2>
+      </div>
+      <div class="values-grid">
+        <div class="value-img-card">
+          <img src="images/food.jpg" alt="Food at Quvo Café" loading="lazy" />
+          <div class="value-img-card__overlay">
+            <span class="value-img-card__label">Food</span>
+          </div>
+        </div>
+        <div class="value-img-card">
+          <img src="images/loc.jpg" alt="Ambiance at Quvo Café" loading="lazy" />
+          <div class="value-img-card__overlay">
+            <span class="value-img-card__label">Ambiance</span>
+          </div>
+        </div>
+        <div class="value-img-card">
+          <img src="images/kape.png" alt="Coffee at Quvo Café" loading="lazy" />
+          <div class="value-img-card__overlay">
+            <span class="value-img-card__label">Good Coffee</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── FOOTER ── -->
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div class="footer-brand">
+        <img src="images/logoT.png" alt="Quvo Café" class="footer-logo" />
+        <p class="footer-tagline">Driven by a passion for great coffee, we are Bacoor's newest aspiring café. Join us as we pour our hearts into every cup.</p>
+        <div class="social-links">
+          <a href="https://www.facebook.com/QuvoCafe" class="social-link" aria-label="Facebook" target="_blank" rel="noopener">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
+          </a>
+          <a href="https://www.tiktok.com/@quvo.cafe" class="social-link" aria-label="TikTok" target="_blank" rel="noopener">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><g transform="translate(3,3) scale(1.125)"><path d="M9 0h1.98c.144.715.54 1.617 1.235 2.512C12.895 3.389 13.797 4 15 4v2c-1.753 0-3.07-.814-4-1.829V11a5 5 0 1 1-5-5v2a3 3 0 1 0 3 3z"/></g></svg>
+          </a>
+        </div>
+      </div>
+      <div class="footer-col">
+        <h4 class="footer-heading">Company</h4>
+        <ul class="footer-links">
+          <li><a href="aboutus.html">About Us</a></li>
+          <li><a href="careers.html">Careers</a></li>
+          <li><a href="policy.html">Privacy Policy</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4 class="footer-heading">Visit &amp; Order</h4>
+        <ul class="footer-links">
+          <li><a href="drinkmenu.html">Drink Menu</a></li>
+          <li><a href="foodmenu.html">Food Menu</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4 class="footer-heading">Products</h4>
+        <ul class="footer-links">
+          <li><a href="index.html#shop-section">Coffee</a></li>
+          <li><a href="index.html#shop-section">Ice Blended</a></li>
+          <li><a href="index.html#shop-section">Frappe</a></li>
+          <li><a href="index.html#shop-section">Refreshers</a></li>
+          <li><a href="index.html#shop-section">Breakfast</a></li>
+          <li><a href="index.html#shop-section">Pasta</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="container footer-bottom-inner">
+        <p>© 2026 Quvo Café. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
