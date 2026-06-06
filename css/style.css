@@ -1632,7 +1632,6 @@ button { cursor: pointer; border: none; background: none; font: inherit; }
   position: relative;
   display: block;
   overflow: hidden;
-  height: 480px;
   text-decoration: none;
 }
 
