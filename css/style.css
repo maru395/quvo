@@ -1,11 +1,3 @@
-/* ============================================================
-   BO'S COFFEE CLONE — MASTER STYLESHEET
-   Design language: warm earthy, Philippine artisan, refined
-   Primary: #501818 (deep mahogany)
-   Accent:  #c08740 (warm gold)
-   Cream:   #f9f4ee
-   ============================================================ */
-
 /* ── RESET & BASE ─────────────────────────────────────────── */
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
@@ -1630,8 +1622,8 @@ button { cursor: pointer; border: none; background: none; font: inherit; }
 
 /* ── MENU BANNER SECTION ──────────────────────────────────── */
 .menu-banner-section {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
+  display: flex;
+  flex-direction: column;
   width: 100%;
   line-height: 0;
 }
@@ -1728,15 +1720,12 @@ button { cursor: pointer; border: none; background: none; font: inherit; }
   transform: translateY(0);
 }
 
-/* Thin divider between the two panels */
 .menu-banner-item:first-child {
-  border-right: 2px solid rgba(255,255,255,.15);
+  border-bottom: 2px solid rgba(255,255,255,.15);
 }
 
 @media (max-width: 768px) {
-  .menu-banner-section { grid-template-columns: 1fr; }
   .menu-banner-item { height: 320px; }
-  .menu-banner-item:first-child { border-right: none; border-bottom: 2px solid rgba(255,255,255,.15); }
   .menu-banner-sub { opacity: 1; transform: none; }
 }
 
