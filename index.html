@@ -106,158 +106,40 @@
     </section>
 
     <!-- ─────────────────────────────────────────────
-       SHOP BY CATEGORY GRID
+       MENU BANNERS — drink & food side by side
   ───────────────────────────────────────────── -->
-    <section class="categories-section" id="shop-section">
-      <div class="container">
-        <div class="section-header">
-          <p class="section-eyebrow">Explore</p>
-          <h2 class="section-title">Shop by Category</h2>
+    <section class="menu-banner-section" id="menus">
+
+      <!-- Drink Menu Banner -->
+      <a href="drinkmenu.html" class="menu-banner-item">
+        <img
+          src="images/coffee.jpg"
+          alt="Drink Menu"
+          class="menu-banner-img"
+        />
+        <div class="menu-banner-overlay"></div>
+        <div class="menu-banner-label-wrap">
+          <span class="menu-banner-label">Drink Menu</span>
+          <span class="menu-banner-sub">Coffees, Frappes, Refreshers &amp; More</span>
         </div>
+      </a>
 
-        <div class="categories-grid">
-          <a class="cat-card" data-cat="coffee" href="drinkmenu.html">
-            <div class="cat-card__img-wrap">
-              <img
-                src="images/coffee.jpg"
-                alt="Coffee"
-                loading="lazy"
-                onerror="this.parentElement.classList.add('img-placeholder')"
-              />
-            </div>
-            <div class="cat-card__body">
-              <h3>Coffee</h3>
-              <span class="cat-link">Shop Now →</span>
-            </div>
-          </a>
-
-          <a class="cat-card" data-cat="ice_blended" href="drinkmenu.html">
-            <div class="cat-card__img-wrap">
-              <img
-                src="images/iceblend.jpg"
-                alt="Ice Blended"
-                loading="lazy"
-                onerror="this.parentElement.classList.add('img-placeholder')"
-              />
-            </div>
-            <div class="cat-card__body">
-              <h3>Ice Blended</h3>
-              <span class="cat-link">Shop Now →</span>
-            </div>
-          </a>
-
-          <a class="cat-card" data-cat="frappe" href="drinkmenu.html">
-            <div class="cat-card__img-wrap">
-              <img
-                src="images/frappe.jpg"
-                alt="Frappe"
-                loading="lazy"
-                onerror="this.parentElement.classList.add('img-placeholder')"
-              />
-            </div>
-            <div class="cat-card__body">
-              <h3>Frappe</h3>
-              <span class="cat-link">Shop Now →</span>
-            </div>
-          </a>
-
-          <a class="cat-card" data-cat="refreshers" href="drinkmenu.html">
-            <div class="cat-card__img-wrap">
-              <img
-                src="images/refreshers.jpg"
-                alt="Refreshers"
-                loading="lazy"
-                onerror="this.parentElement.classList.add('img-placeholder')"
-              />
-            </div>
-            <div class="cat-card__body">
-              <h3>Refreshers</h3>
-              <span class="cat-link">Shop Now →</span>
-            </div>
-          </a>
-
-          <a class="cat-card" data-cat="breakfast" href="foodmenu.html">
-            <div class="cat-card__img-wrap">
-              <img
-                src="images/breakfast.jpg"
-                alt="Breakfast"
-                loading="lazy"
-                onerror="this.parentElement.classList.add('img-placeholder')"
-              />
-            </div>
-            <div class="cat-card__body">
-              <h3>Breakfast</h3>
-              <span class="cat-link">Shop Now →</span>
-            </div>
-          </a>
-
-          <a class="cat-card" data-cat="salad" href="foodmenu.html">
-            <div class="cat-card__img-wrap">
-              <img
-                src="images/salad.jpg"
-                alt="Salad"
-                loading="lazy"
-                onerror="this.parentElement.classList.add('img-placeholder')"
-              />
-            </div>
-            <div class="cat-card__body">
-              <h3>Salad</h3>
-              <span class="cat-link">Shop Now →</span>
-            </div>
-          </a>
-
-          <a class="cat-card" data-cat="pasta" href="foodmenu.html">
-            <div class="cat-card__img-wrap">
-              <img
-                src="images/pasta.jpg"
-                alt="Pasta"
-                loading="lazy"
-                onerror="this.parentElement.classList.add('img-placeholder')"
-              />
-            </div>
-            <div class="cat-card__body">
-              <h3>Pasta</h3>
-              <span class="cat-link">Shop Now →</span>
-            </div>
-          </a>
-
-          <a class="cat-card" data-cat="appetizer" href="foodmenu.html">
-            <div class="cat-card__img-wrap">
-              <img
-                src="images/appetizer.jpg"
-                alt="Appetizer"
-                loading="lazy"
-                onerror="this.parentElement.classList.add('img-placeholder')"
-              />
-            </div>
-            <div class="cat-card__body">
-              <h3>Appetizer</h3>
-              <span class="cat-link">Shop Now →</span>
-            </div>
-          </a>
+      <!-- Food Menu Banner -->
+      <a href="foodmenu.html" class="menu-banner-item">
+        <img
+          src="images/breakfast.jpg"
+          alt="Food Menu"
+          class="menu-banner-img"
+        />
+        <div class="menu-banner-overlay"></div>
+        <div class="menu-banner-label-wrap">
+          <span class="menu-banner-label">Food Menu</span>
+          <span class="menu-banner-sub">Breakfast, Pasta, Salads &amp; More</span>
         </div>
-      </div>
+      </a>
+
     </section>
-
-    <!-- ─────────────────────────────────────────────
-       MENU CTA STRIP
-  ───────────────────────────────────────────── -->
-    <section class="menu-strip" id="menus">
-      <div class="menu-strip__inner container">
-        <div class="menu-strip__text">
-          <h2>Explore Our In-Store Menu</h2>
-          <p>
-            From signature espresso drinks to refreshing cold brews — find your
-            next favorite.
-          </p>
-        </div>
-        <div class="menu-strip__btns">
-          <a href="drinkmenu.html" class="btn btn--cream">Drink Menu</a>
-          <a href="foodmenu.html" class="btn btn--cream-outline">Food Menu</a>
-        </div>
-      </div>
-    </section>
-
+    
     <!-- ─────────────────────────────────────────────
        FEATURED PRODUCTS — AUTO CAROUSEL
   ───────────────────────────────────────────── -->
